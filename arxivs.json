@@ -1,0 +1,129 @@
+[
+  {
+    "id": "2009.06855v1",
+    "title": "A Design Space of Vision Science Methods for Visualization Research",
+    "url": "http://arxiv.org/pdf/2009.06855v1",
+    "pubtime": "2020-09-15",
+    "authors": [
+      "Madison Elliott",
+      "Christine Nothelfer",
+      "Cindy Xiong",
+      "Danielle Szafir"
+    ],
+    "abstract": "A growing number of efforts aim to understand what people see when using a\nvisualization. These efforts provide scientific grounding to complement design\nintuitions, leading to more effective visualization practice. However,\npublished visualization research currently reflects a limited set of available\nmethods for understanding how people process visualized data. Alternative\nmethods from vision science offer a rich suite of tools for understanding\nvisualizations, but no curated collection of these methods exists in either\nperception or visualization research. We introduce a design space of\nexperimental methods for empirically investigating the perceptual processes\ninvolved with viewing data visualizations to ultimately inform visualization\ndesign guidelines. This paper provides a shared lexicon for facilitating\nexperimental visualization research. We discuss popular experimental paradigms,\nadjustment types, response types, and dependent measures used in vision science\nresearch, rooting each in visualization examples. We then discuss the\nadvantages and limitations of each technique. Researchers can use this design\nspace to create innovative studies and progress scientific understanding of\ndesign choices and evaluations in visualization. We highlight a history of\ncollaborative success between visualization and vision science research and\nadvocate for a deeper relationship between the two fields that can elaborate on\nand extend the methodological design space for understanding visualization and\nvision."
+  },
+  {
+    "id": "1907.13178v2",
+    "title": "Artifact-Based Rendering: Harnessing Natural and Traditional Visual Media for More Expressive and Engaging 3D Visualizations",
+    "url": "http://arxiv.org/pdf/1907.13178v2",
+    "pubtime": "2019-07-30",
+    "authors": [
+      "Seth Johnson",
+      "Francesca Samsel",
+      "Gregory Abram",
+      "Daniel Olson",
+      "Andrew J. Solis",
+      "Bridger Herman",
+      "Phillip J. Wolfram",
+      "Christophe Lenglet",
+      "Daniel F. Keefe"
+    ],
+    "abstract": "We introduce Artifact-Based Rendering (ABR), a framework of tools,\nalgorithms, and processes that makes it possible to produce real, data-driven\n3D scientific visualizations with a visual language derived entirely from\ncolors, lines, textures, and forms created using traditional physical media or\nfound in nature. A theory and process for ABR is presented to address three\ncurrent needs: (i) designing better visualizations by making it possible for\nnon-programmers to rapidly design and critique many alternative data-to-visual\nmappings; (ii) expanding the visual vocabulary used in scientific\nvisualizations to depict increasingly complex multivariate data; (iii) bringing\na more engaging, natural, and human-relatable handcrafted aesthetic to data\nvisualization. New tools and algorithms to support ABR include front-end\napplets for constructing artifact-based colormaps, optimizing 3D scanned meshes\nfor use in data visualization, and synthesizing textures from artifacts. These\nare complemented by an interactive rendering engine with custom algorithms and\ninterfaces that demonstrate multiple new visual styles for depicting point,\nline, surface, and volume data. A within-the-research-team design study\nprovides early evidence of the shift in visualization design processes that ABR\nis believed to enable when compared to traditional scientific visualization\nsystems. Qualitative user feedback on applications to climate science and brain\nimaging support the utility of ABR for scientific discovery and public\ncommunication."
+  },
+  {
+    "id": "1908.07465v1",
+    "title": "Delineating Knowledge Domains in the Scientific Literature Using Visual Information",
+    "url": "http://arxiv.org/pdf/1908.07465v1",
+    "pubtime": "2019-08-12",
+    "authors": [
+      "Sean Yang",
+      "Po-shen Lee",
+      "Jevin D. West",
+      "Bill Howe"
+    ],
+    "abstract": "Figures are an important channel for scientific communication, used to\nexpress complex ideas, models and data in ways that words cannot. However, this\nvisual information is mostly ignored in analyses of the scientific literature.\nIn this paper, we demonstrate the utility of using scientific figures as\nmarkers of knowledge domains in science, which can be used for classification,\nrecommender systems, and studies of scientific information exchange. We encode\nsets of images into a visual signature, then use distances between these\nsignatures to understand how patterns of visual communication compare with\npatterns of jargon and citation structures. We find that figures can be as\neffective for differentiating communities of practice as text or citation\npatterns. We then consider where these metrics disagree to understand how\ndifferent disciplines use visualization to express ideas. Finally, we further\nconsider how specific figure types propagate through the literature, suggesting\na new mechanism for understanding the flow of ideas apart from conventional\nchannels of text and citations. Our ultimate aim is to better leverage these\ninformation-dense objects to improve scientific communication across\ndisciplinary boundaries."
+  },
+  {
+    "id": "2101.09999v3",
+    "title": "Democratizing information visualization. A study to map the value of graphic design to easier knowledge transfer of scientific research",
+    "url": "http://arxiv.org/pdf/2101.09999v3",
+    "pubtime": "2021-01-25",
+    "authors": [
+      "Matteo Zallio"
+    ],
+    "abstract": "Visual representations are becoming important in science communication and\neducation. This explorative study investigates the perception of STEM\nresearchers, without any specific visual design background, and the value of\nvisual representations as tools to support the communication of technical and\nscientific knowledge among academics and a wider non-technical community. Early\nfindings show that visual representations can positively support scientists to\nshare research outcomes in a more compelling, visually clear, and impactful\nmanner, reaching a wider audience across different disciplines."
+  },
+  {
+    "id": "2009.03254v1",
+    "title": "Interactive Visualization of Terascale Data in the Browser: Fact or Fiction?",
+    "url": "http://arxiv.org/pdf/2009.03254v1",
+    "pubtime": "2020-09-07",
+    "authors": [
+      "Will Usher",
+      "Valerio Pascucci"
+    ],
+    "abstract": "Information visualization applications have become ubiquitous, in no small\npart thanks to the ease of wide distribution and deployment to users enabled by\nthe web browser. Scientific visualization applications, relying on native code\nlibraries and parallel processing, have been less suited to such widespread\ndistribution, as browsers do not provide the required libraries or compute\ncapabilities. In this paper, we revisit this gap in visualization technologies\nand explore how new web technologies, WebAssembly and WebGPU, can be used to\ndeploy powerful visualization solutions for large-scale scientific data in the\nbrowser. In particular, we evaluate the programming effort required to bring\nscientific visualization applications to the browser through these technologies\nand assess their competitiveness against classic native solutions. As a main\nexample, we present a new GPU-driven isosurface extraction method for\nblock-compressed data sets, that is suitable for interactive isosurface\ncomputation on large volumes in resource-constrained environments, such as the\nbrowser. We conclude that web browsers are on the verge of becoming a\ncompetitive platform for even the most demanding scientific visualization\ntasks, such as interactive visualization of isosurfaces from a 1TB DNS\nsimulation. We call on researchers and developers to consider investing in a\ncommunity software stack to ease use of these upcoming browser features to\nbring accessible scientific visualization to the browser."
+  },
+  {
+    "id": "2312.15073v1",
+    "title": "Scalable Volume Visualization for Big Scientific Data Modeled by Functional Approximation",
+    "url": "http://arxiv.org/pdf/2312.15073v1",
+    "pubtime": "2023-12-22",
+    "authors": [
+      "Jianxin Sun",
+      "David Lenz",
+      "Hongfeng Yu",
+      "Tom Peterka"
+    ],
+    "abstract": "Considering the challenges posed by the space and time complexities in\nhandling extensive scientific volumetric data, various data representations\nhave been developed for the analysis of large-scale scientific data.\nMultivariate functional approximation (MFA) is an innovative data model\ndesigned to tackle substantial challenges in scientific data analysis. It\ncomputes values and derivatives with high-order accuracy throughout the spatial\ndomain, mitigating artifacts associated with zero- or first-order\ninterpolation. However, the slow query time through MFA makes it less suitable\nfor interactively visualizing a large MFA model. In this work, we develop the\nfirst scalable interactive volume visualization pipeline, MFA-DVV, for the MFA\nmodel encoded from large-scale datasets. Our method achieves low input latency\nthrough distributed architecture, and its performance can be further enhanced\nby utilizing a compressed MFA model while still maintaining a high-quality\nrendering result for scientific datasets. We conduct comprehensive experiments\nto show that MFA-DVV can decrease the input latency and achieve superior\nvisualization results for big scientific data compared with existing\napproaches."
+  },
+  {
+    "id": "2204.05807v2",
+    "title": "Research on accurate stereo portrait generation algorithm of scientific research team",
+    "url": "http://arxiv.org/pdf/2204.05807v2",
+    "pubtime": "2022-04-11",
+    "authors": [
+      "Mingying Xu",
+      "Junping DU",
+      "Meiyu Liang",
+      "Zhe Xue",
+      "Ang Li"
+    ],
+    "abstract": "In order to smoothly promote the establishment of scientific research\nprojects, accurately identify the excellent scientific research team, and\nintuitively and comprehensively describe the scientific research team, it is of\ngreat significance for the scientific research management department to\ncomprehensively understand and objectively evaluate the scientific research\nteam. At present, the research work on the construction of accurate\nthree-dimensional portrait of scientific research team is relatively less. In\nview of the practical demand of scientific research management department, this\npaper proposes an accurate stereo portrait generation algorithm of scientific\nresearch team. The algorithm includes three modules: research team\nidentification, research topic extraction and research team portrait\ngeneration. Firstly, the leader of the scientific research team is identified\nbased on the iterative middle centrality ranking method, and the members of the\nscientific research team are identified through the 2-faction and snowball\nmethods, so as to realize the identification of the scientific research team.\nThen, considering the statistical information of words and the co-occurrence\nfeatures of words in the research team, the research topics of the research\nteam are extracted to improve the accuracy of research topic extraction.\nFinally, the research team portrait generation module generates the accurate\nthree-dimensional portrait of the research team through the generation of the\nresearch team profile, the construction of the research cooperation\nrelationship, and the construction of the research team topic cloud. The\nresearch team is identified on the data set of scientific research\nachievements, and the accurate three-dimensional portraits of the research team\nare generated and visualized. Experiments verify the effectiveness of the\nproposed algorithm."
+  },
+  {
+    "id": "2301.12293v1",
+    "title": "ACL-Fig: A Dataset for Scientific Figure Classification",
+    "url": "http://arxiv.org/pdf/2301.12293v1",
+    "pubtime": "2023-01-28",
+    "authors": [
+      "Zeba Karishma",
+      "Shaurya Rohatgi",
+      "Kavya Shrinivas Puranik",
+      "Jian Wu",
+      "C. Lee Giles"
+    ],
+    "abstract": "Most existing large-scale academic search engines are built to retrieve\ntext-based information. However, there are no large-scale retrieval services\nfor scientific figures and tables. One challenge for such services is\nunderstanding scientific figures' semantics, such as their types and purposes.\nA key obstacle is the need for datasets containing annotated scientific figures\nand tables, which can then be used for classification, question-answering, and\nauto-captioning. Here, we develop a pipeline that extracts figures and tables\nfrom the scientific literature and a deep-learning-based framework that\nclassifies scientific figures using visual features. Using this pipeline, we\nbuilt the first large-scale automatically annotated corpus, ACL-Fig, consisting\nof 112,052 scientific figures extracted from ~56K research papers in the ACL\nAnthology. The ACL-Fig-Pilot dataset contains 1,671 manually labeled scientific\nfigures belonging to 19 categories. The dataset is accessible at\nhttps://huggingface.co/datasets/citeseerx/ACL-fig under a CC BY-NC license."
+  },
+  {
+    "id": "2201.13261v1",
+    "title": "A note on the use of equidistant contours for presenting scientific data",
+    "url": "http://arxiv.org/pdf/2201.13261v1",
+    "pubtime": "2022-01-27",
+    "authors": [
+      "Hans van Haren"
+    ],
+    "abstract": "The passionate plea for the use of scientific colour maps misses some aspects\nin the visual presentation of scientific data. While a linear colour map based\non scientific human colour perception is useful for the presentation of some\nimages, like the three examples given of the topography of the earth, an apple\nand a passport photograph, scientific data are not presented. In this note it\nwill be shown that there is more in scientific oceanographic data as they are\npresented in forms varying from historic equidistant contours, via a linear\nblack-(grey)-white b&w map, a linear colour map and a nonlinear colour map.\nFrom an objective perspective, equidistant contouring is the best means for\npresenting scientific information in a relatively unbiased way. Nonlinear\ncolour maps may add information to that by highlighting certain aspects also by\nvarying the colour range if needed. Such information is not available from\nlinear colour maps. Finally, the aesthetic aspect of visual data presentation\nis discussed."
+  },
+  {
+    "id": "2009.02094v2",
+    "title": "GlassViz: Visualizing Automatically-Extracted Entry Points for Exploring Scientific Corpora in Problem-Driven Visualization Research",
+    "url": "http://arxiv.org/pdf/2009.02094v2",
+    "pubtime": "2020-09-04",
+    "authors": [
+      "Alejandro Benito-Santos",
+      "Roberto Ther\u00f3n"
+    ],
+    "abstract": "In this paper, we report the development of a model and a proof-of-concept\nvisual text analytics (VTA) tool to enhance documentdiscovery in a\nproblem-driven visualization research (PDVR) con-text. The proposed model\ncaptures the cognitive model followed bydomain and visualization experts by\nanalyzing the interdisciplinarycommunication channel as represented by keywords\nfound in twodisjoint collections of research papers. High distributional\ninter-collection similarities are employed to build informative\nkeywordassociations that serve as entry points to drive the exploration of\nalarge document corpus. Our approach is demonstrated in the contextof research\non visualization for the digital humanities."
+  }
+]
